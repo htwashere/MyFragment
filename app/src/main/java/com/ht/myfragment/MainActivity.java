@@ -37,5 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public void btnClickMe(View view) {
         Intent myIntent = new Intent(getApplicationContext(), FragmentPortrait.class);
         startActivity(myIntent);
+
+        // added comment to test github version control
     }
 }
